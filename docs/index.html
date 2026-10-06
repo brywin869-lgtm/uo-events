@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>UO NA Events</title>
+<meta name="theme-color" content="#16122a">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="UO Events">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#16122a; --surface:#211b3d; --line:#342b5c; --text:#ece6f7; --muted:#a99cc4;
+  --accent:#9b72cf; --accent-soft:#b19cd9; --live:#7fd1b9; --on-accent:#16122a;
+  --serif:"Cinzel",Georgia,"Times New Roman",serif;
+  --sans:"Source Sans 3",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  color-scheme:dark;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:light){:root{
+  --bg:#f3effa; --surface:#ffffff; --line:#ddd3ef; --text:#221a3a; --muted:#6a5d88;
+  --accent:#7a4fb5; --accent-soft:#9b72cf; --live:#1f8a6d; --on-accent:#fff; color-scheme:light;
+}}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 120px);background:var(--bg)}
+body{margin:0;background:var(--bg);color:var(--text);font:400 17px/1.45 var(--sans);-webkit-font-smoothing:antialiased}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--accent-soft);outline-offset:2px;border-radius:4px}
+.wrap{max-width:720px;margin:0 auto;padding:0 16px 48px}
+
+/* hero: the next event, with the two moons */
+.hero{position:relative;padding:28px 0 20px;overflow:hidden}
+.moons{position:absolute;right:-10px;top:4px;width:96px;height:72px;pointer-events:none;opacity:.9}
+h1{font:700 1.15rem/1 var(--serif);letter-spacing:.04em;margin:0 0 22px;color:var(--accent-soft)}
+.next-when{font:600 .95rem/1.2 var(--sans);color:var(--muted);margin:0 0 6px}
+.next-title{font:700 clamp(1.6rem,6vw,2.3rem)/1.1 var(--serif);margin:0 0 8px;max-width:15ch;text-wrap:balance}
+.next-title a{text-decoration:none}
+.next-meta{color:var(--muted);margin:0}
+.countdown{display:inline-block;margin-top:14px;font:700 1.05rem/1 var(--sans);color:var(--on-accent);background:var(--accent);padding:8px 12px;border-radius:999px;font-variant-numeric:tabular-nums}
+.countdown.live{background:var(--live)}
+
+/* controls */
+.controls{position:sticky;top:0;z-index:5;background:var(--bg);padding:10px 0 12px;border-bottom:1px solid var(--line);
+  padding-top:calc(10px + env(safe-area-inset-top,0px));margin-top:calc(-1 * env(safe-area-inset-top,0px))}
+.row{display:flex;gap:8px;align-items:center}
+.row + .row{margin-top:10px}
+input[type=search],select{font:inherit;font-size:16px;color:var(--text);background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:8px 10px;min-width:0}
+input[type=search]{flex:1}
+.chips{overflow-x:auto;scrollbar-width:none;flex-wrap:nowrap;padding-bottom:2px}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;font:600 .9rem/1 var(--sans);padding:8px 12px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--muted);cursor:pointer}
+.chip[aria-pressed=true]{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.toggle{display:flex;gap:6px;align-items:center;color:var(--muted);font-size:.9rem;white-space:nowrap}
+
+/* day list */
+.day{margin-top:26px}
+.day h2{font:700 1rem/1.2 var(--serif);letter-spacing:.03em;margin:0 0 6px;color:var(--accent-soft)}
+.day h2 small{font:400 .9rem var(--sans);color:var(--muted);letter-spacing:0;margin-left:6px}
+.ev{display:grid;grid-template-columns:5.2rem 1fr;gap:12px;padding:12px 0;border-top:1px solid var(--line)}
+.ev:first-of-type{border-top:0}
+.t{font-weight:700;font-variant-numeric:tabular-nums;line-height:1.25}
+.t span{display:block;font-weight:400;color:var(--muted);font-size:.85rem}
+.title{font-weight:700;text-decoration:none}
+.title:hover{text-decoration:underline}
+.meta{color:var(--muted);font-size:.92rem;margin-top:2px}
+.shard{color:var(--accent-soft);font-weight:600}
+.tag{display:inline-block;font-size:.78rem;border:1px solid var(--line);border-radius:6px;padding:1px 6px;margin:4px 4px 0 0;color:var(--muted)}
+.tag.live{border-color:var(--live);color:var(--live);font-weight:700}
+.ev.past{opacity:.5}
+.empty{margin:40px 0;color:var(--muted)}
+
+/* footer actions */
+.foot{margin-top:40px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}
+.btns{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 12px}
+.btn{font:600 .95rem/1 var(--sans);padding:11px 14px;border-radius:10px;text-decoration:none;border:1px solid var(--accent);color:var(--text);background:transparent;cursor:pointer}
+.btn.primary{background:var(--accent);color:var(--on-accent)}
+@media (prefers-reduced-motion:no-preference){.countdown.live{animation:pulse 2s ease-in-out infinite}
+  @keyframes pulse{50%{box-shadow:0 0 0 6px color-mix(in srgb,var(--live) 25%,transparent)}}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="hero">
+    <svg class="moons" viewBox="0 0 120 90" aria-hidden="true">
+      <circle cx="78" cy="38" r="26" fill="var(--accent)" opacity=".85"/>
+      <circle cx="88" cy="32" r="22" fill="var(--bg)"/>
+      <circle cx="36" cy="58" r="12" fill="var(--live)" opacity=".7"/>
+    </svg>
+    <h1>UO NA Events</h1>
+    <div id="next"><p class="next-when">Loading events…</p></div>
+  </header>
+
+  <div class="controls">
+    <div class="row">
+      <input id="q" type="search" placeholder="Search events" aria-label="Search events">
+      <select id="tz" aria-label="Time zone">
+        <option value="">My time</option>
+        <option value="America/New_York">Eastern</option>
+        <option value="America/Chicago">Central</option>
+        <option value="America/Denver">Mountain</option>
+        <option value="America/Los_Angeles">Pacific</option>
+        <option value="UTC">UTC</option>
+      </select>
+    </div>
+    <div class="row chips" id="chips" role="group" aria-label="Shards"></div>
+  </div>
+
+  <main id="list"></main>
+
+  <footer class="foot">
+    <div class="btns">
+      <a class="btn primary" id="sub-apple">Get alerts (iPhone)</a>
+      <a class="btn" id="sub-google" target="_blank" rel="noopener">Get alerts (Google Calendar)</a>
+      <button class="btn" id="install" hidden>Install app</button>
+    </div>
+    <label class="toggle"><input type="checkbox" id="past"> Show ended events</label>
+    <p id="updated"></p>
+    <p>Unofficial. Event data from the official calendar at <a href="https://uo.com/events/">uo.com/events</a>. Ultima Online is a trademark of Electronic Arts Inc. Times marked (?) couldn't be confirmed and may be off.</p>
+  </footer>
+</div>
+
+<script>
+const $ = s => document.querySelector(s);
+const store = {
+  get(k, d){ try{ const v = localStorage.getItem(k); return v == null ? d : JSON.parse(v); }catch{ return d; } },
+  set(k, v){ try{ localStorage.setItem(k, JSON.stringify(v)); }catch{} }
+};
+let data = {events: [], shards: []};
+let off = new Set(store.get("hiddenShards", []));
+let tz = store.get("tz", "");
+let showPast = store.get("showPast", false);
+
+const zone = () => tz || Intl.DateTimeFormat().resolvedOptions().timeZone;
+const fmt = (d, o) => new Intl.DateTimeFormat(undefined, {timeZone: zone(), ...o}).format(d);
+const dayKey = d => new Intl.DateTimeFormat("en-CA", {timeZone: zone(), year:"numeric", month:"2-digit", day:"2-digit"}).format(d);
+const time = d => fmt(d, {hour:"numeric", minute:"2-digit"});
+
+function norm(e){
+  if (e.allDay){
+    const [y,m,d] = e.start.split("-").map(Number);
+    const [y2,m2,d2] = e.end.split("-").map(Number);
+    const s = new Date(y, m-1, d), en = new Date(y2, m2-1, d2 + (e.end === e.start ? 1 : 0));
+    return {...e, s, e: en};
+  }
+  return {...e, s: new Date(e.start), e: new Date(e.end)};
+}
+
+function visible(){
+  const q = $("#q").value.trim().toLowerCase();
+  return data.events.filter(e => !off.has(e.shard) &&
+    (!q || [e.title, e.shard, e.location, ...(e.tags||[])].join(" ").toLowerCase().includes(q)));
+}
+
+function renderChips(){
+  $("#chips").innerHTML = "";
+  for (const s of data.shards){
+    const b = document.createElement("button");
+    b.className = "chip"; b.textContent = s;
+    b.setAttribute("aria-pressed", String(!off.has(s)));
+    b.onclick = () => { off.has(s) ? off.delete(s) : off.add(s); store.set("hiddenShards", [...off]); renderChips(); render(); };
+    $("#chips").append(b);
+  }
+}
+
+function renderNext(evs, now){
+  const live = evs.find(e => !e.allDay && e.s <= now && now < e.e);
+  const next = live || evs.find(e => e.s > now);
+  const box = $("#next");
+  if (!next){ box.innerHTML = `<p class="next-when">No upcoming events on your shards.</p>`; return; }
+  const mins = Math.round((next.s - now) / 60000);
+  const cd = live ? "Happening now"
+    : mins < 60 ? `Starts in ${mins} min`
+    : mins < 1440 ? `Starts in ${Math.floor(mins/60)}h ${mins%60}m`
+    : `Starts in ${Math.round(mins/1440)} day${Math.round(mins/1440) === 1 ? "" : "s"}`;
+  box.innerHTML = `
+    <p class="next-when">${live ? "Live" : "Next up"}, ${fmt(next.s,{weekday:"long"})}${next.allDay ? "" : " at " + time(next.s)}</p>
+    <p class="next-title"><a href="${next.url}" target="_blank" rel="noopener"></a></p>
+    <p class="next-meta"><span class="shard"></span><span class="loc"></span></p>
+    <span class="countdown${live ? " live" : ""}">${cd}</span>`;
+  box.querySelector("a").textContent = next.title;
+  box.querySelector(".shard").textContent = next.shard;
+  box.querySelector(".loc").textContent = next.location ? `, ${next.location}` : "";
+}
+
+function render(){
+  const now = new Date();
+  const evs = visible().map(norm).sort((a,b) => a.s - b.s);
+  renderNext(evs, now);
+  const list = $("#list"); list.innerHTML = "";
+  const todayKey = dayKey(now);
+  const tomorrowKey = dayKey(new Date(now.getTime() + 864e5));
+  const groups = new Map();
+  for (const e of evs){
+    const ended = e.e <= now;
+    if (ended && !showPast) continue;
+    const k = e.allDay ? e.start : dayKey(e.s);
+    if (!groups.has(k)) groups.set(k, []);
+    groups.get(k).push({...e, ended});
+  }
+  if (!groups.size){
+    list.innerHTML = `<p class="empty">${data.events.length ? "Nothing matches. Turn on more shards or clear the search." : "No events loaded yet. Check back after the next update."}</p>`;
+    return;
+  }
+  for (const [k, items] of groups){
+    const [y,m,d] = k.split("-").map(Number);
+    const label = new Date(y, m-1, d);
+    const sec = document.createElement("section"); sec.className = "day";
+    const h = document.createElement("h2");
+    h.textContent = label.toLocaleDateString(undefined, {weekday:"long", month:"short", day:"numeric"});
+    if (k === todayKey || k === tomorrowKey){ const sm = document.createElement("small"); sm.textContent = k === todayKey ? "Today" : "Tomorrow"; h.append(sm); }
+    sec.append(h);
+    for (const e of items){
+      const live = !e.allDay && e.s <= now && now < e.e;
+      const row = document.createElement("article");
+      row.className = "ev" + (e.ended ? " past" : "");
+      const t = document.createElement("div"); t.className = "t";
+      if (e.allDay) t.textContent = "All day";
+      else { t.textContent = time(e.s) + (e.approx ? " (?)" : ""); const sp = document.createElement("span"); sp.textContent = "to " + time(e.e); t.append(sp); }
+      const body = document.createElement("div");
+      const a = document.createElement("a"); a.className = "title"; a.href = e.url; a.target = "_blank"; a.rel = "noopener"; a.textContent = e.title;
+      const meta = document.createElement("div"); meta.className = "meta";
+      const sh = document.createElement("span"); sh.className = "shard"; sh.textContent = e.shard;
+      meta.append(sh, e.location ? `, ${e.location}` : "");
+      body.append(a, meta);
+      const tags = [...(live ? ["Live"] : []), ...(e.tags||[]).filter(x => x !== "EM Event")];
+      for (const tg of tags){ const s = document.createElement("span"); s.className = "tag" + (tg === "Live" ? " live" : ""); s.textContent = tg; body.append(s); }
+      row.append(t, body); sec.append(row);
+    }
+    list.append(sec);
+  }
+}
+
+async function load(){
+  try{
+    const r = await fetch("events.json", {cache: "no-cache"});
+    data = await r.json();
+    $("#updated").textContent = "Updated " + new Date(data.generated).toLocaleString();
+  }catch{
+    $("#updated").textContent = "Couldn't load events. You may be offline.";
+  }
+  renderChips(); render();
+}
+
+// alerts: subscribe the phone's calendar to the filtered feed
+const feed = new URL("uo-na.ics", location.href);
+$("#sub-apple").href = "webcal://" + feed.host + feed.pathname;
+$("#sub-google").href = "https://calendar.google.com/calendar/render?cid=" + encodeURIComponent("webcal://" + feed.host + feed.pathname);
+
+// controls
+$("#tz").value = tz;
+$("#tz").onchange = e => { tz = e.target.value; store.set("tz", tz); render(); };
+$("#q").oninput = render;
+$("#past").checked = showPast;
+$("#past").onchange = e => { showPast = e.target.checked; store.set("showPast", showPast); render(); };
+
+// Android/desktop install button
+let deferred;
+addEventListener("beforeinstallprompt", e => { e.preventDefault(); deferred = e; $("#install").hidden = false; });
+$("#install").onclick = async () => { if (!deferred) return; deferred.prompt(); await deferred.userChoice; deferred = null; $("#install").hidden = true; };
+
+if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
+setInterval(render, 30000);
+document.addEventListener("visibilitychange", () => { if (!document.hidden) load(); });
+load();
+</script>
+</body>
+</html>
