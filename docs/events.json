@@ -1,1 +1,355 @@
-{"generated":"1970-01-01T00:00:00Z","shards":[],"events":[]}
+{
+ "generated": "2026-10-06T02:10:16Z",
+ "shards": [
+  "Atlantic",
+  "Pacific",
+  "Great Lakes",
+  "Lake Superior",
+  "Baja",
+  "Chesapeake",
+  "Napa Valley",
+  "Sonoma",
+  "Catskills",
+  "Lake Austin",
+  "Legends",
+  "Origin"
+ ],
+ "events": [
+  {
+   "uid": "38721-1790802000-1790805600@uo.com",
+   "title": "Chessy - Back To School",
+   "shard": "Chesapeake",
+   "start": "2026-10-01T01:00:00Z",
+   "end": "2026-10-01T02:00:00Z",
+   "allDay": false,
+   "url": "https://uo.com/event/chessy-back-to-school/",
+   "location": "",
+   "tags": [
+    "EM Event"
+   ],
+   "approx": false
+  },
+  {
+   "uid": "38556-1790798400-1790802000@uo.com",
+   "title": "Lake Superior - Breadcrumbs",
+   "shard": "Lake Superior",
+   "start": "2026-10-01T01:00:00Z",
+   "end": "2026-10-01T02:00:00Z",
+   "allDay": false,
+   "url": "https://uo.com/event/lake-superior-breadcrumbs/",
+   "location": "Meet At Counselor Hall",
+   "tags": [
+    "EM Event"
+   ],
+   "approx": false
+  },
+  {
+   "uid": "38851-1791136800-1791140400@uo.com",
+   "title": "Sonoma - Not-So-Basic Training",
+   "shard": "Sonoma",
+   "start": "2026-10-05T01:00:00Z",
+   "end": "2026-10-05T02:00:00Z",
+   "allDay": false,
+   "url": "https://uo.com/event/sonoma-not-so-basic-training/",
+   "location": "Sonoma",
+   "tags": [
+    "EM Event"
+   ],
+   "approx": false
+  },
+  {
+   "uid": "38703-1791234000-1791234000@uo.com",
+   "title": "ATL - Wellspring of Mayhem",
+   "shard": "Atlantic",
+   "start": "2026-10-06T01:00:00Z",
+   "end": "2026-10-06T01:00:00Z",
+   "allDay": false,
+   "url": "https://uo.com/event/atl-wellspring-of-mayhem/",
+   "location": "EM Counselor Hall (Britain)",
+   "tags": [
+    "EM Event"
+   ],
+   "approx": false
+  },
+  {
+   "uid": "39110-1791226800-1791232200@uo.com",
+   "title": "Napa Valley - Mini Event: The Harvest",
+   "shard": "Napa Valley",
+   "start": "2026-10-06T02:00:00Z",
+   "end": "2026-10-06T03:30:00Z",
+   "allDay": false,
+   "url": "https://uo.com/event/napa-valley-mini-event-the-harvest/",
+   "location": "",
+   "tags": [
+    "EM Event"
+   ],
+   "approx": false
+  },
+  {
+   "uid": "38502-1791316800-1791316800@uo.com",
+   "title": "Great Lakes – Royal Britannian Guard",
+   "shard": "Great Lakes",
+   "start": "2026-10-07T01:00:00Z",
+   "end": "2026-10-07T01:00:00Z",
+   "allDay": false,
+   "url": "https://uo.com/event/great-lakes-royal-britannian-guard-192/",
+   "location": "",
+   "tags": [
+    "EM Event"
+   ],
+   "approx": false
+  },
+  {
+   "uid": "39005-1791581400-1791585000@uo.com",
+   "title": "LA - Bearded Lady",
+   "shard": "Lake Austin",
+   "start": "2026-10-10T01:30:00Z",
+   "end": "2026-10-10T02:30:00Z",
+   "allDay": false,
+   "url": "https://uo.com/event/la-bearded-lady/",
+   "location": "Vesper Bank",
+   "tags": [
+    "EM Event"
+   ],
+   "approx": false
+  },
+  {
+   "uid": "39074-1791662400-1791666000@uo.com",
+   "title": "Lake Superior - Governor Meeting",
+   "shard": "Lake Superior",
+   "start": "2026-10-11T01:00:00Z",
+   "end": "2026-10-11T02:00:00Z",
+   "allDay": false,
+   "url": "https://uo.com/event/lake-superior-governor-meeting-13/",
+   "location": "King Blackthorn’s Castle",
+   "tags": [
+    "EM Event"
+   ],
+   "approx": false
+  },
+  {
+   "uid": "39081-1791748800-1791756000@uo.com",
+   "title": "Catskills - Governor Meeting",
+   "shard": "Catskills",
+   "start": "2026-10-12T00:00:00Z",
+   "end": "2026-10-12T02:00:00Z",
+   "allDay": false,
+   "url": "https://uo.com/event/catskills-governor-meeting-69/",
+   "location": "King Blackthorn’s Castle",
+   "tags": [
+    "EM Event"
+   ],
+   "approx": false
+  },
+  {
+   "uid": "39104-1791921600-1791921600@uo.com",
+   "title": "Great Lakes – Royal Spy Mission",
+   "shard": "Great Lakes",
+   "start": "2026-10-14T01:00:00Z",
+   "end": "2026-10-14T01:00:00Z",
+   "allDay": false,
+   "url": "https://uo.com/event/great-lakes-royal-spy-mission-322/",
+   "location": "Great Lakes – Counselor Hall",
+   "tags": [
+    "EM Event"
+   ],
+   "approx": false
+  },
+  {
+   "uid": "39003-1792186200-1792188000@uo.com",
+   "title": "LA - Department Store",
+   "shard": "Lake Austin",
+   "start": "2026-10-17T01:30:00Z",
+   "end": "2026-10-17T02:00:00Z",
+   "allDay": false,
+   "url": "https://uo.com/event/la-department-store/",
+   "location": "Award Hall, Malas",
+   "tags": [
+    "EM Event"
+   ],
+   "approx": false
+  },
+  {
+   "uid": "39076-1792267200-1792270800@uo.com",
+   "title": "Lake Superior - Lost Sage",
+   "shard": "Lake Superior",
+   "start": "2026-10-18T01:00:00Z",
+   "end": "2026-10-18T02:00:00Z",
+   "allDay": false,
+   "url": "https://uo.com/event/lake-superior-searching-for-a-sage/",
+   "location": "Meet At Counselor Hall",
+   "tags": [
+    "EM Event"
+   ],
+   "approx": false
+  },
+  {
+   "uid": "39083-1792353600-1792357200@uo.com",
+   "title": "Catskills - Polyandrium",
+   "shard": "Catskills",
+   "start": "2026-10-19T00:00:00Z",
+   "end": "2026-10-19T01:00:00Z",
+   "allDay": false,
+   "url": "https://uo.com/event/catskills-polyandrium/",
+   "location": "Meet At Counselor Hall",
+   "tags": [
+    "EM Event"
+   ],
+   "approx": false
+  },
+  {
+   "uid": "39106-1792526400-1792526400@uo.com",
+   "title": "Great Lakes – Royal Spy Mission",
+   "shard": "Great Lakes",
+   "start": "2026-10-21T01:00:00Z",
+   "end": "2026-10-21T01:00:00Z",
+   "allDay": false,
+   "url": "https://uo.com/event/great-lakes-royal-spy-mission-323/",
+   "location": "Great Lakes – Counselor Hall",
+   "tags": [
+    "EM Event"
+   ],
+   "approx": false
+  },
+  {
+   "uid": "38950-1792699200-1792702800@uo.com",
+   "title": "Legends-The Great Pumpkin Caper!",
+   "shard": "Legends",
+   "start": "2026-10-23T00:00:00Z",
+   "end": "2026-10-23T01:00:00Z",
+   "allDay": false,
+   "url": "https://uo.com/event/legends-the-great-pumpkin-caper/",
+   "location": "",
+   "tags": [
+    "EM Event"
+   ],
+   "approx": false
+  },
+  {
+   "uid": "39112-1792782000-1792787400@uo.com",
+   "title": "Napa Valley: The Pumpkin Lord",
+   "shard": "Napa Valley",
+   "start": "2026-10-24T02:00:00Z",
+   "end": "2026-10-24T03:30:00Z",
+   "allDay": false,
+   "url": "https://uo.com/event/napa-valley-the-pumpkin-lord/",
+   "location": "",
+   "tags": [
+    "EM Event"
+   ],
+   "approx": false
+  },
+  {
+   "uid": "39079-1792872000-1792875600@uo.com",
+   "title": "Lake Superior - Garden Of Stone",
+   "shard": "Lake Superior",
+   "start": "2026-10-25T01:00:00Z",
+   "end": "2026-10-25T02:00:00Z",
+   "allDay": false,
+   "url": "https://uo.com/event/lake-superior-garden-of-stone/",
+   "location": "Meet At Counselor Hall",
+   "tags": [
+    "EM Event"
+   ],
+   "approx": false
+  },
+  {
+   "uid": "38854-1792864800-1792870200@uo.com",
+   "title": "Sonoma - Governors Meeting",
+   "shard": "Sonoma",
+   "start": "2026-10-25T01:00:00Z",
+   "end": "2026-10-25T02:30:00Z",
+   "allDay": false,
+   "url": "https://uo.com/event/sonoma-royal-council-meeting-6pst-9est/",
+   "location": "",
+   "tags": [
+    "EM Event"
+   ],
+   "approx": false
+  },
+  {
+   "uid": "38948-1792868400-1792872000@uo.com",
+   "title": "Baja- Punkin Games!",
+   "shard": "Baja",
+   "start": "2026-10-25T02:00:00Z",
+   "end": "2026-10-25T03:00:00Z",
+   "allDay": false,
+   "url": "https://uo.com/event/baja-punkin-games/",
+   "location": "",
+   "tags": [
+    "EM Event"
+   ],
+   "approx": false
+  },
+  {
+   "uid": "39085-1792958400-1792962000@uo.com",
+   "title": "Catskills - Vermin",
+   "shard": "Catskills",
+   "start": "2026-10-26T00:00:00Z",
+   "end": "2026-10-26T01:00:00Z",
+   "allDay": false,
+   "url": "https://uo.com/event/catskills-vermin/",
+   "location": "Meet At Counselor Hall",
+   "tags": [
+    "EM Event"
+   ],
+   "approx": false
+  },
+  {
+   "uid": "39015-1792951200-1792954800@uo.com",
+   "title": "Sonoma - Kitchen Frightmares!",
+   "shard": "Sonoma",
+   "start": "2026-10-26T01:00:00Z",
+   "end": "2026-10-26T02:00:00Z",
+   "allDay": false,
+   "url": "https://uo.com/event/sonoma-kitchen-frightmares/",
+   "location": "",
+   "tags": [
+    "EM Event"
+   ],
+   "approx": false
+  },
+  {
+   "uid": "38952-1793131200-1793134800@uo.com",
+   "title": "Legends-The Witch in the Woods",
+   "shard": "Legends",
+   "start": "2026-10-28T00:00:00Z",
+   "end": "2026-10-28T01:00:00Z",
+   "allDay": false,
+   "url": "https://uo.com/event/legends-the-witch-in-the-woods/",
+   "location": "",
+   "tags": [
+    "EM Event"
+   ],
+   "approx": false
+  },
+  {
+   "uid": "39108-1793131200-1793131200@uo.com",
+   "title": "Great Lakes – Royal Britannian Guard",
+   "shard": "Great Lakes",
+   "start": "2026-10-28T01:00:00Z",
+   "end": "2026-10-28T01:00:00Z",
+   "allDay": false,
+   "url": "https://uo.com/event/great-lakes-royal-britannian-guard-193/",
+   "location": "Great Lakes – Counselor Hall",
+   "tags": [
+    "EM Event"
+   ],
+   "approx": false
+  },
+  {
+   "uid": "38946-1793473200-1793476800@uo.com",
+   "title": "Baja- It has Risen!",
+   "shard": "Baja",
+   "start": "2026-11-01T02:00:00Z",
+   "end": "2026-11-01T03:00:00Z",
+   "allDay": false,
+   "url": "https://uo.com/event/baja-it-has-risen/",
+   "location": "",
+   "tags": [
+    "EM Event"
+   ],
+   "approx": false
+  }
+ ]
+}
