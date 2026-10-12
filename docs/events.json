@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-12T00:42:54Z",
+ "generated": "2026-10-12T03:34:28Z",
  "shards": [
   "Atlantic",
   "Pacific",
@@ -15,20 +15,6 @@
   "Origin"
  ],
  "events": [
-  {
-   "uid": "38851-1791136800-1791140400@uo.com",
-   "title": "Sonoma - Not-So-Basic Training",
-   "shard": "Sonoma",
-   "start": "2026-10-05T01:00:00Z",
-   "end": "2026-10-05T02:00:00Z",
-   "allDay": false,
-   "url": "https://uo.com/event/sonoma-not-so-basic-training/",
-   "location": "Sonoma",
-   "tags": [
-    "EM Event"
-   ],
-   "approx": false
-  },
   {
    "uid": "38703-1791234000-1791234000@uo.com",
    "title": "ATL - Wellspring of Mayhem",
