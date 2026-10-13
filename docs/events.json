@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T00:44:32Z",
+ "generated": "2026-10-13T03:33:05Z",
  "shards": [
   "Atlantic",
   "Pacific",
@@ -15,34 +15,6 @@
   "Origin"
  ],
  "events": [
-  {
-   "uid": "38703-1791234000-1791234000@uo.com",
-   "title": "ATL - Wellspring of Mayhem",
-   "shard": "Atlantic",
-   "start": "2026-10-06T01:00:00Z",
-   "end": "2026-10-06T01:00:00Z",
-   "allDay": false,
-   "url": "https://uo.com/event/atl-wellspring-of-mayhem/",
-   "location": "EM Counselor Hall (Britain)",
-   "tags": [
-    "EM Event"
-   ],
-   "approx": false
-  },
-  {
-   "uid": "39110-1791226800-1791232200@uo.com",
-   "title": "Napa Valley - Mini Event: The Harvest",
-   "shard": "Napa Valley",
-   "start": "2026-10-06T02:00:00Z",
-   "end": "2026-10-06T03:30:00Z",
-   "allDay": false,
-   "url": "https://uo.com/event/napa-valley-mini-event-the-harvest/",
-   "location": "",
-   "tags": [
-    "EM Event"
-   ],
-   "approx": false
-  },
   {
    "uid": "38502-1791316800-1791316800@uo.com",
    "title": "Great Lakes – Royal Britannian Guard",
