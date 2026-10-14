@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T00:54:25Z",
+ "generated": "2026-10-14T03:43:44Z",
  "shards": [
   "Atlantic",
   "Pacific",
@@ -15,20 +15,6 @@
   "Origin"
  ],
  "events": [
-  {
-   "uid": "38502-1791316800-1791316800@uo.com",
-   "title": "Great Lakes – Royal Britannian Guard",
-   "shard": "Great Lakes",
-   "start": "2026-10-07T01:00:00Z",
-   "end": "2026-10-07T01:00:00Z",
-   "allDay": false,
-   "url": "https://uo.com/event/great-lakes-royal-britannian-guard-192/",
-   "location": "",
-   "tags": [
-    "EM Event"
-   ],
-   "approx": false
-  },
   {
    "uid": "39005-1791581400-1791585000@uo.com",
    "title": "LA - Bearded Lady",
