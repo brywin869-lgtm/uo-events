@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18T00:54:09Z",
+ "generated": "2026-10-18T03:41:21Z",
  "shards": [
   "Atlantic",
   "Pacific",
@@ -15,20 +15,6 @@
   "Origin"
  ],
  "events": [
-  {
-   "uid": "39074-1791662400-1791666000@uo.com",
-   "title": "Lake Superior - Governor Meeting",
-   "shard": "Lake Superior",
-   "start": "2026-10-11T01:00:00Z",
-   "end": "2026-10-11T02:00:00Z",
-   "allDay": false,
-   "url": "https://uo.com/event/lake-superior-governor-meeting-13/",
-   "location": "King Blackthorn’s Castle",
-   "tags": [
-    "EM Event"
-   ],
-   "approx": false
-  },
   {
    "uid": "39081-1791748800-1791756000@uo.com",
    "title": "Catskills - Governor Meeting",
