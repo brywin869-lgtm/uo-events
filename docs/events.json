@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18T21:38:58Z",
+ "generated": "2026-10-19T00:55:01Z",
  "shards": [
   "Atlantic",
   "Pacific",
@@ -15,20 +15,6 @@
   "Origin"
  ],
  "events": [
-  {
-   "uid": "39081-1791748800-1791756000@uo.com",
-   "title": "Catskills - Governor Meeting",
-   "shard": "Catskills",
-   "start": "2026-10-12T00:00:00Z",
-   "end": "2026-10-12T02:00:00Z",
-   "allDay": false,
-   "url": "https://uo.com/event/catskills-governor-meeting-69/",
-   "location": "King Blackthorn’s Castle",
-   "tags": [
-    "EM Event"
-   ],
-   "approx": false
-  },
   {
    "uid": "39104-1791921600-1791921600@uo.com",
    "title": "Great Lakes – Royal Spy Mission",
