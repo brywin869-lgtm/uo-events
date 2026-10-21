@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T00:55:02Z",
+ "generated": "2026-10-21T03:43:52Z",
  "shards": [
   "Atlantic",
   "Pacific",
@@ -15,20 +15,6 @@
   "Origin"
  ],
  "events": [
-  {
-   "uid": "39104-1791921600-1791921600@uo.com",
-   "title": "Great Lakes – Royal Spy Mission",
-   "shard": "Great Lakes",
-   "start": "2026-10-14T01:00:00Z",
-   "end": "2026-10-14T01:00:00Z",
-   "allDay": false,
-   "url": "https://uo.com/event/great-lakes-royal-spy-mission-322/",
-   "location": "Great Lakes – Counselor Hall",
-   "tags": [
-    "EM Event"
-   ],
-   "approx": false
-  },
   {
    "uid": "39003-1792186200-1792188000@uo.com",
    "title": "LA - Department Store",
