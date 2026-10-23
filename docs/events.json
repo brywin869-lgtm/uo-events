@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T03:43:53Z",
+ "generated": "2026-10-23T06:53:44Z",
  "shards": [
   "Atlantic",
   "Pacific",
@@ -128,20 +128,6 @@
    "approx": false
   },
   {
-   "uid": "39112-1792782000-1792787400@uo.com",
-   "title": "Napa Valley: The Pumpkin Lord",
-   "shard": "Napa Valley",
-   "start": "2026-10-24T02:00:00Z",
-   "end": "2026-10-24T03:30:00Z",
-   "allDay": false,
-   "url": "https://uo.com/event/napa-valley-the-pumpkin-lord/",
-   "location": "",
-   "tags": [
-    "EM Event"
-   ],
-   "approx": false
-  },
-  {
    "uid": "39200-1792782000-1792785600@uo.com",
    "title": "*Pacific* - Rise of the Blood Moon",
    "shard": "Pacific",
@@ -248,6 +234,20 @@
    "allDay": false,
    "url": "https://uo.com/event/atl-distribution-hub-3/",
    "location": "EM Counselor Hall (Britain)",
+   "tags": [
+    "EM Event"
+   ],
+   "approx": false
+  },
+  {
+   "uid": "39112-1793041200-1793046600@uo.com",
+   "title": "Napa Valley: The Pumpkin Lord",
+   "shard": "Napa Valley",
+   "start": "2026-10-27T02:00:00Z",
+   "end": "2026-10-27T03:30:00Z",
+   "allDay": false,
+   "url": "https://uo.com/event/napa-valley-the-pumpkin-lord/",
+   "location": "",
    "tags": [
     "EM Event"
    ],
