@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T00:59:52Z",
+ "generated": "2026-10-24T03:42:50Z",
  "shards": [
   "Atlantic",
   "Pacific",
@@ -15,20 +15,6 @@
   "Origin"
  ],
  "events": [
-  {
-   "uid": "39003-1792186200-1792188000@uo.com",
-   "title": "LA - Department Store",
-   "shard": "Lake Austin",
-   "start": "2026-10-17T01:30:00Z",
-   "end": "2026-10-17T02:00:00Z",
-   "allDay": false,
-   "url": "https://uo.com/event/la-department-store/",
-   "location": "Award Hall, Malas",
-   "tags": [
-    "EM Event"
-   ],
-   "approx": false
-  },
   {
    "uid": "39076-1792267200-1792270800@uo.com",
    "title": "Lake Superior - Lost Sage",
