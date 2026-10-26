@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T21:40:17Z",
+ "generated": "2026-10-26T01:05:35Z",
  "shards": [
   "Atlantic",
   "Pacific",
@@ -15,34 +15,6 @@
   "Origin"
  ],
  "events": [
-  {
-   "uid": "39083-1792353600-1792357200@uo.com",
-   "title": "Catskills - Polyandrium",
-   "shard": "Catskills",
-   "start": "2026-10-19T00:00:00Z",
-   "end": "2026-10-19T01:00:00Z",
-   "allDay": false,
-   "url": "https://uo.com/event/catskills-polyandrium/",
-   "location": "Meet At Counselor Hall",
-   "tags": [
-    "EM Event"
-   ],
-   "approx": false
-  },
-  {
-   "uid": "39382-1792357200-1792357200@uo.com",
-   "title": "Atlantic Royal Council",
-   "shard": "Atlantic",
-   "start": "2026-10-19T01:00:00Z",
-   "end": "2026-10-19T01:00:00Z",
-   "allDay": false,
-   "url": "https://uo.com/event/atlantic-royal-council-26/",
-   "location": "Castle Blackthorn Governors Hall",
-   "tags": [
-    "EM Event"
-   ],
-   "approx": false
-  },
   {
    "uid": "39384-1792443600-1792443600@uo.com",
    "title": "Atl - Loose Ends",
