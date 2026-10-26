@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T09:54:32Z",
+ "generated": "2026-10-26T14:53:48Z",
  "shards": [
   "Atlantic",
   "Pacific",
@@ -220,6 +220,20 @@
    "allDay": false,
    "url": "https://uo.com/event/great-lakes-royal-britannian-guard-193/",
    "location": "Great Lakes – Counselor Hall",
+   "tags": [
+    "EM Event"
+   ],
+   "approx": false
+  },
+  {
+   "uid": "39415-1793304000-1793307600@uo.com",
+   "title": "Chessy - Pumpkins & Costumes Mini Event",
+   "shard": "Chesapeake",
+   "start": "2026-10-30T00:00:00Z",
+   "end": "2026-10-30T01:00:00Z",
+   "allDay": false,
+   "url": "https://uo.com/event/pumpkins-costumes-mini-event/",
+   "location": "",
    "tags": [
     "EM Event"
    ],
