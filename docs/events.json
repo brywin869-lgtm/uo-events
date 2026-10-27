@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T00:58:11Z",
+ "generated": "2026-10-27T03:45:40Z",
  "shards": [
   "Atlantic",
   "Pacific",
@@ -15,20 +15,6 @@
   "Origin"
  ],
  "events": [
-  {
-   "uid": "39384-1792443600-1792443600@uo.com",
-   "title": "Atl - Loose Ends",
-   "shard": "Atlantic",
-   "start": "2026-10-20T01:00:00Z",
-   "end": "2026-10-20T01:00:00Z",
-   "allDay": false,
-   "url": "https://uo.com/event/atl-loose-ends/",
-   "location": "EM Counselor Hall (Britain)",
-   "tags": [
-    "EM Event"
-   ],
-   "approx": false
-  },
   {
    "uid": "39106-1792526400-1792526400@uo.com",
    "title": "Great Lakes – Royal Spy Mission",
