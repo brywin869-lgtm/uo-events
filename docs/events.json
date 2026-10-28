@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T21:44:47Z",
+ "generated": "2026-10-28T01:08:40Z",
  "shards": [
   "Atlantic",
   "Pacific",
@@ -15,20 +15,6 @@
   "Origin"
  ],
  "events": [
-  {
-   "uid": "39106-1792526400-1792526400@uo.com",
-   "title": "Great Lakes – Royal Spy Mission",
-   "shard": "Great Lakes",
-   "start": "2026-10-21T01:00:00Z",
-   "end": "2026-10-21T01:00:00Z",
-   "allDay": false,
-   "url": "https://uo.com/event/great-lakes-royal-spy-mission-323/",
-   "location": "Great Lakes – Counselor Hall",
-   "tags": [
-    "EM Event"
-   ],
-   "approx": false
-  },
   {
    "uid": "39413-1792616400-1792620000@uo.com",
    "title": "Chessy - Governors Meeting",
@@ -206,6 +192,20 @@
    "allDay": false,
    "url": "https://uo.com/event/great-lakes-royal-britannian-guard-193/",
    "location": "Great Lakes – Counselor Hall",
+   "tags": [
+    "EM Event"
+   ],
+   "approx": false
+  },
+  {
+   "uid": "39537-1793221200-1793224800@uo.com",
+   "title": "Chessy - All That Glitters",
+   "shard": "Chesapeake",
+   "start": "2026-10-29T01:00:00Z",
+   "end": "2026-10-29T02:00:00Z",
+   "allDay": false,
+   "url": "https://uo.com/event/chessy-all-that-glitters/",
+   "location": "",
    "tags": [
     "EM Event"
    ],
