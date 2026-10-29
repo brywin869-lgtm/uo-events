@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T21:50:31Z",
+ "generated": "2026-10-29T01:06:42Z",
  "shards": [
   "Atlantic",
   "Pacific",
@@ -15,20 +15,6 @@
   "Origin"
  ],
  "events": [
-  {
-   "uid": "39413-1792616400-1792620000@uo.com",
-   "title": "Chessy - Governors Meeting",
-   "shard": "Chesapeake",
-   "start": "2026-10-22T01:00:00Z",
-   "end": "2026-10-22T02:00:00Z",
-   "allDay": false,
-   "url": "https://uo.com/event/chessy-governors-meeting-8/",
-   "location": "",
-   "tags": [
-    "EM Event"
-   ],
-   "approx": false
-  },
   {
    "uid": "38950-1792699200-1792702800@uo.com",
    "title": "Legends-The Great Pumpkin Caper!",
