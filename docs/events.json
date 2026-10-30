@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T21:52:44Z",
+ "generated": "2026-10-30T01:09:25Z",
  "shards": [
   "Atlantic",
   "Pacific",
@@ -15,20 +15,6 @@
   "Origin"
  ],
  "events": [
-  {
-   "uid": "38950-1792699200-1792702800@uo.com",
-   "title": "Legends-The Great Pumpkin Caper!",
-   "shard": "Legends",
-   "start": "2026-10-23T00:00:00Z",
-   "end": "2026-10-23T01:00:00Z",
-   "allDay": false,
-   "url": "https://uo.com/event/legends-the-great-pumpkin-caper/",
-   "location": "",
-   "tags": [
-    "EM Event"
-   ],
-   "approx": false
-  },
   {
    "uid": "39200-1792782000-1792785600@uo.com",
    "title": "*Pacific* - Rise of the Blood Moon",
