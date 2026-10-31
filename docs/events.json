@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T01:07:50Z",
+ "generated": "2026-10-31T03:53:16Z",
  "shards": [
   "Atlantic",
   "Pacific",
@@ -15,20 +15,6 @@
   "Origin"
  ],
  "events": [
-  {
-   "uid": "39200-1792782000-1792785600@uo.com",
-   "title": "*Pacific* - Rise of the Blood Moon",
-   "shard": "Pacific",
-   "start": "2026-10-24T02:00:00Z",
-   "end": "2026-10-24T03:00:00Z",
-   "allDay": false,
-   "url": "https://uo.com/event/pacific-rise-of-the-blood-moon/",
-   "location": "Castle Blackthorn Courtyard",
-   "tags": [
-    "EM Event"
-   ],
-   "approx": false
-  },
   {
    "uid": "39079-1792872000-1792875600@uo.com",
    "title": "Lake Superior - Garden Of Stone",
