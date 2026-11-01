@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T01:17:41Z",
+ "generated": "2026-11-01T03:58:27Z",
  "shards": [
   "Atlantic",
   "Pacific",
@@ -15,34 +15,6 @@
   "Origin"
  ],
  "events": [
-  {
-   "uid": "38948-1792868400-1792872000@uo.com",
-   "title": "Baja- Punkin Games!",
-   "shard": "Baja",
-   "start": "2026-10-25T02:00:00Z",
-   "end": "2026-10-25T03:00:00Z",
-   "allDay": false,
-   "url": "https://uo.com/event/baja-punkin-games/",
-   "location": "",
-   "tags": [
-    "EM Event"
-   ],
-   "approx": false
-  },
-  {
-   "uid": "39202-1792868400-1792872000@uo.com",
-   "title": "*Pacific* - The Voodoo Queen",
-   "shard": "Pacific",
-   "start": "2026-10-25T02:00:00Z",
-   "end": "2026-10-25T03:00:00Z",
-   "allDay": false,
-   "url": "https://uo.com/event/pacific-the-voodoo-queen/",
-   "location": "Castle Blackthorn Courtyard",
-   "tags": [
-    "EM Event"
-   ],
-   "approx": false
-  },
   {
    "uid": "39085-1792958400-1792962000@uo.com",
    "title": "Catskills - Vermin",
