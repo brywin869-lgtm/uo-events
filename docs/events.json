@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T21:43:28Z",
+ "generated": "2026-11-01T01:17:41Z",
  "shards": [
   "Atlantic",
   "Pacific",
@@ -15,34 +15,6 @@
   "Origin"
  ],
  "events": [
-  {
-   "uid": "39079-1792872000-1792875600@uo.com",
-   "title": "Lake Superior - Garden Of Stone",
-   "shard": "Lake Superior",
-   "start": "2026-10-25T01:00:00Z",
-   "end": "2026-10-25T02:00:00Z",
-   "allDay": false,
-   "url": "https://uo.com/event/lake-superior-garden-of-stone/",
-   "location": "Meet At Counselor Hall",
-   "tags": [
-    "EM Event"
-   ],
-   "approx": false
-  },
-  {
-   "uid": "38854-1792864800-1792870200@uo.com",
-   "title": "Sonoma - Governors Meeting",
-   "shard": "Sonoma",
-   "start": "2026-10-25T01:00:00Z",
-   "end": "2026-10-25T02:30:00Z",
-   "allDay": false,
-   "url": "https://uo.com/event/sonoma-royal-council-meeting-6pst-9est/",
-   "location": "",
-   "tags": [
-    "EM Event"
-   ],
-   "approx": false
-  },
   {
    "uid": "38948-1792868400-1792872000@uo.com",
    "title": "Baja- Punkin Games!",
