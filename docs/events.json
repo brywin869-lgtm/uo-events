@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T12:57:38Z",
+ "generated": "2026-11-01T15:43:43Z",
  "shards": [
   "Atlantic",
   "Pacific",
@@ -114,6 +114,20 @@
    "approx": false
   },
   {
+   "uid": "39604-1793736000-1793736000@uo.com",
+   "title": "Great Lakes – Royal Spy Mission",
+   "shard": "Great Lakes",
+   "start": "2026-11-04T02:00:00Z",
+   "end": "2026-11-04T02:00:00Z",
+   "allDay": false,
+   "url": "https://uo.com/event/great-lakes-royal-spy-mission-324/",
+   "location": "Great Lakes – Counselor Hall",
+   "tags": [
+    "EM Event"
+   ],
+   "approx": false
+  },
+  {
    "uid": "39557-1794000600-1794004200@uo.com",
    "title": "LA - Gravy Consequences",
    "shard": "Lake Austin",
@@ -170,6 +184,20 @@
    "approx": false
   },
   {
+   "uid": "39606-1794340800-1794340800@uo.com",
+   "title": "Great Lakes – Royal Britannian Guard",
+   "shard": "Great Lakes",
+   "start": "2026-11-11T02:00:00Z",
+   "end": "2026-11-11T02:00:00Z",
+   "allDay": false,
+   "url": "https://uo.com/event/great-lakes-royal-britannian-guard-194/",
+   "location": "Great Lakes – Counselor Hall",
+   "tags": [
+    "EM Event"
+   ],
+   "approx": false
+  },
+  {
    "uid": "39562-1794605400-1794607200@uo.com",
    "title": "LA - Birthday and Such",
    "shard": "Lake Austin",
@@ -210,6 +238,20 @@
    "approx": false
   },
   {
+   "uid": "39608-1794945600-1794945600@uo.com",
+   "title": "Great Lakes – Royal Spy Mission",
+   "shard": "Great Lakes",
+   "start": "2026-11-18T02:00:00Z",
+   "end": "2026-11-18T02:00:00Z",
+   "allDay": false,
+   "url": "https://uo.com/event/great-lakes-royal-spy-mission-325/",
+   "location": "Great Lakes – Counselor Hall",
+   "tags": [
+    "EM Event"
+   ],
+   "approx": false
+  },
+  {
    "uid": "39560-1795291200-1795294800@uo.com",
    "title": "Lake Superior - The Red Menace",
    "shard": "Lake Superior",
@@ -232,6 +274,34 @@
    "allDay": false,
    "url": "https://uo.com/event/catskills-jailbreak/",
    "location": "Meet At Counselor Hall",
+   "tags": [
+    "EM Event"
+   ],
+   "approx": false
+  },
+  {
+   "uid": "39610-1795550400-1795550400@uo.com",
+   "title": "Great Lakes – Royal Britannian Guard",
+   "shard": "Great Lakes",
+   "start": "2026-11-25T02:00:00Z",
+   "end": "2026-11-25T02:00:00Z",
+   "allDay": false,
+   "url": "https://uo.com/event/great-lakes-royal-britannian-guard-195/",
+   "location": "Great Lakes – Counselor Hall",
+   "tags": [
+    "EM Event"
+   ],
+   "approx": false
+  },
+  {
+   "uid": "39612-1796065200-1796065200@uo.com",
+   "title": "Great Lakes – Royal Council",
+   "shard": "Great Lakes",
+   "start": "2026-12-01T01:00:00Z",
+   "end": "2026-12-01T01:00:00Z",
+   "allDay": false,
+   "url": "https://uo.com/event/great-lakes-royal-council-80/",
+   "location": "Great Lakes – Counselor Hall",
    "tags": [
     "EM Event"
    ],
