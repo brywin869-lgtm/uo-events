@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T01:16:03Z",
+ "generated": "2026-11-02T04:04:16Z",
  "shards": [
   "Atlantic",
   "Pacific",
@@ -238,6 +238,20 @@
    "approx": false
   },
   {
+   "uid": "39622-1794765600-1794769200@uo.com",
+   "title": "Sonoma - Corwin's Discovery",
+   "shard": "Sonoma",
+   "start": "2026-11-16T02:00:00Z",
+   "end": "2026-11-16T03:00:00Z",
+   "allDay": false,
+   "url": "https://uo.com/event/sonoma-corwins-discovery/",
+   "location": "Sonoma",
+   "tags": [
+    "EM Event"
+   ],
+   "approx": false
+  },
+  {
    "uid": "39608-1794945600-1794945600@uo.com",
    "title": "Great Lakes – Royal Spy Mission",
    "shard": "Great Lakes",
@@ -274,6 +288,20 @@
    "allDay": false,
    "url": "https://uo.com/event/catskills-jailbreak/",
    "location": "Meet At Counselor Hall",
+   "tags": [
+    "EM Event"
+   ],
+   "approx": false
+  },
+  {
+   "uid": "39625-1795370400-1795375800@uo.com",
+   "title": "Sonoma - Governors Council Meeting",
+   "shard": "Sonoma",
+   "start": "2026-11-23T02:00:00Z",
+   "end": "2026-11-23T03:30:00Z",
+   "allDay": false,
+   "url": "https://uo.com/event/sonoma-governors-council-meeting/",
+   "location": "",
    "tags": [
     "EM Event"
    ],
