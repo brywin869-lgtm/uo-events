@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T21:51:27Z",
+ "generated": "2026-11-03T01:13:06Z",
  "shards": [
   "Atlantic",
   "Pacific",
@@ -15,20 +15,6 @@
   "Origin"
  ],
  "events": [
-  {
-   "uid": "39386-1793048400-1793048400@uo.com",
-   "title": "Atl - Distribution Hub 3",
-   "shard": "Atlantic",
-   "start": "2026-10-27T01:00:00Z",
-   "end": "2026-10-27T01:00:00Z",
-   "allDay": false,
-   "url": "https://uo.com/event/atl-distribution-hub-3/",
-   "location": "EM Counselor Hall (Britain)",
-   "tags": [
-    "EM Event"
-   ],
-   "approx": false
-  },
   {
    "uid": "39112-1793041200-1793046600@uo.com",
    "title": "Napa Valley: The Pumpkin Lord",
