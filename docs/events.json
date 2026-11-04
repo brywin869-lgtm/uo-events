@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T21:54:22Z",
+ "generated": "2026-11-04T01:15:08Z",
  "shards": [
   "Atlantic",
   "Pacific",
@@ -15,34 +15,6 @@
   "Origin"
  ],
  "events": [
-  {
-   "uid": "38952-1793131200-1793134800@uo.com",
-   "title": "Legends-The Witch in the Woods",
-   "shard": "Legends",
-   "start": "2026-10-28T00:00:00Z",
-   "end": "2026-10-28T01:00:00Z",
-   "allDay": false,
-   "url": "https://uo.com/event/legends-the-witch-in-the-woods/",
-   "location": "",
-   "tags": [
-    "EM Event"
-   ],
-   "approx": false
-  },
-  {
-   "uid": "39108-1793131200-1793131200@uo.com",
-   "title": "Great Lakes – Royal Britannian Guard",
-   "shard": "Great Lakes",
-   "start": "2026-10-28T01:00:00Z",
-   "end": "2026-10-28T01:00:00Z",
-   "allDay": false,
-   "url": "https://uo.com/event/great-lakes-royal-britannian-guard-193/",
-   "location": "Great Lakes – Counselor Hall",
-   "tags": [
-    "EM Event"
-   ],
-   "approx": false
-  },
   {
    "uid": "39537-1793221200-1793224800@uo.com",
    "title": "Chessy - All That Glitters",
