@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T21:55:46Z",
+ "generated": "2026-11-05T01:16:27Z",
  "shards": [
   "Atlantic",
   "Pacific",
@@ -15,20 +15,6 @@
   "Origin"
  ],
  "events": [
-  {
-   "uid": "39537-1793221200-1793224800@uo.com",
-   "title": "Chessy - All That Glitters",
-   "shard": "Chesapeake",
-   "start": "2026-10-29T01:00:00Z",
-   "end": "2026-10-29T02:00:00Z",
-   "allDay": false,
-   "url": "https://uo.com/event/chessy-all-that-glitters/",
-   "location": "",
-   "tags": [
-    "EM Event"
-   ],
-   "approx": false
-  },
   {
    "uid": "39415-1793304000-1793307600@uo.com",
    "title": "Chessy - Pumpkins & Costumes Mini Event",
@@ -80,6 +66,20 @@
    "allDay": false,
    "url": "https://uo.com/event/la-gravy-consequences/",
    "location": "Vesper Bank",
+   "tags": [
+    "EM Event"
+   ],
+   "approx": false
+  },
+  {
+   "uid": "39946-1793991600-1793997000@uo.com",
+   "title": "Napa Valley - Mini Event: The Supply Line",
+   "shard": "Napa Valley",
+   "start": "2026-11-07T03:00:00Z",
+   "end": "2026-11-07T04:30:00Z",
+   "allDay": false,
+   "url": "https://uo.com/event/napa-valley-mini-event-the-supply-line/",
+   "location": "",
    "tags": [
     "EM Event"
    ],
