@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T23:38:06Z",
+ "generated": "2026-11-06T06:44:30Z",
  "shards": [
   "Atlantic",
   "Pacific",
@@ -15,20 +15,6 @@
   "Origin"
  ],
  "events": [
-  {
-   "uid": "39415-1793304000-1793307600@uo.com",
-   "title": "Chessy - Pumpkins & Costumes Mini Event",
-   "shard": "Chesapeake",
-   "start": "2026-10-30T00:00:00Z",
-   "end": "2026-10-30T01:00:00Z",
-   "allDay": false,
-   "url": "https://uo.com/event/pumpkins-costumes-mini-event/",
-   "location": "",
-   "tags": [
-    "EM Event"
-   ],
-   "approx": false
-  },
   {
    "uid": "38946-1793473200-1793476800@uo.com",
    "title": "Baja- It has Risen!",
