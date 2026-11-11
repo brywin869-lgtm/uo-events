@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T21:17:27Z",
+ "generated": "2026-11-11T06:18:52Z",
  "shards": [
   "Atlantic",
   "Pacific",
@@ -15,20 +15,6 @@
   "Origin"
  ],
  "events": [
-  {
-   "uid": "39604-1793736000-1793736000@uo.com",
-   "title": "Great Lakes – Royal Spy Mission",
-   "shard": "Great Lakes",
-   "start": "2026-11-04T02:00:00Z",
-   "end": "2026-11-04T02:00:00Z",
-   "allDay": false,
-   "url": "https://uo.com/event/great-lakes-royal-spy-mission-324/",
-   "location": "Great Lakes – Counselor Hall",
-   "tags": [
-    "EM Event"
-   ],
-   "approx": false
-  },
   {
    "uid": "39557-1794000600-1794004200@uo.com",
    "title": "LA - Gravy Consequences",
