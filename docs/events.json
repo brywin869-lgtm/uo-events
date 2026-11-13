@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T01:49:00Z",
+ "generated": "2026-11-13T10:58:03Z",
  "shards": [
   "Atlantic",
   "Pacific",
@@ -168,6 +168,34 @@
    "approx": false
   },
   {
+   "uid": "40040-1795111200-1795114800@uo.com",
+   "title": "Legends EM Event",
+   "shard": "Legends",
+   "start": "2026-11-19T23:00:00Z",
+   "end": "2026-11-20T00:00:00Z",
+   "allDay": false,
+   "url": "https://uo.com/event/legends-em-event/",
+   "location": "",
+   "tags": [
+    "EM Event"
+   ],
+   "approx": false
+  },
+  {
+   "uid": "40044-1795201200-1795204800@uo.com",
+   "title": "Origin EM Event",
+   "shard": "Origin",
+   "start": "2026-11-21T03:00:00Z",
+   "end": "2026-11-21T04:00:00Z",
+   "allDay": false,
+   "url": "https://uo.com/event/origin-em-event/",
+   "location": "",
+   "tags": [
+    "EM Event"
+   ],
+   "approx": false
+  },
+  {
    "uid": "39560-1795291200-1795294800@uo.com",
    "title": "Lake Superior - The Red Menace",
    "shard": "Lake Superior",
@@ -176,6 +204,20 @@
    "allDay": false,
    "url": "https://uo.com/event/lake-superior-the-red-menace/",
    "location": "Meet At Counselor Hall",
+   "tags": [
+    "EM Event"
+   ],
+   "approx": false
+  },
+  {
+   "uid": "40038-1795298400-1795302000@uo.com",
+   "title": "Baja EM Event",
+   "shard": "Baja",
+   "start": "2026-11-22T03:00:00Z",
+   "end": "2026-11-22T04:00:00Z",
+   "allDay": false,
+   "url": "https://uo.com/event/baja-em-event/",
+   "location": "",
    "tags": [
     "EM Event"
    ],
@@ -218,6 +260,20 @@
    "allDay": false,
    "url": "https://uo.com/event/great-lakes-royal-britannian-guard-195/",
    "location": "Great Lakes – Counselor Hall",
+   "tags": [
+    "EM Event"
+   ],
+   "approx": false
+  },
+  {
+   "uid": "40036-1795640400-1795644000@uo.com",
+   "title": "Chesapeake - A Peculiar Predicament",
+   "shard": "Chesapeake",
+   "start": "2026-11-26T02:00:00Z",
+   "end": "2026-11-26T03:00:00Z",
+   "allDay": false,
+   "url": "https://uo.com/event/chesapeake-a-peculiar-predicament/",
+   "location": "",
    "tags": [
     "EM Event"
    ],
