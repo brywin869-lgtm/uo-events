@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T19:41:08Z",
+ "generated": "2026-11-14T01:26:37Z",
  "shards": [
   "Atlantic",
   "Pacific",
@@ -274,6 +274,34 @@
    "allDay": false,
    "url": "https://uo.com/event/chesapeake-a-peculiar-predicament/",
    "location": "",
+   "tags": [
+    "EM Event"
+   ],
+   "approx": false
+  },
+  {
+   "uid": "40075-1795892400-1795896000@uo.com",
+   "title": "*Pacific* - The Great Feast",
+   "shard": "Pacific",
+   "start": "2026-11-29T03:00:00Z",
+   "end": "2026-11-29T04:00:00Z",
+   "allDay": false,
+   "url": "https://uo.com/event/pacific-the-great-feast/",
+   "location": "Castle Blackthorn Courtyard",
+   "tags": [
+    "EM Event"
+   ],
+   "approx": false
+  },
+  {
+   "uid": "40077-1795978800-1795982400@uo.com",
+   "title": "*Pacific* - Stolen Mash",
+   "shard": "Pacific",
+   "start": "2026-11-30T03:00:00Z",
+   "end": "2026-11-30T04:00:00Z",
+   "allDay": false,
+   "url": "https://uo.com/event/pacific-stolen-mash/",
+   "location": "Castle Blackthorn Courtyard",
    "tags": [
     "EM Event"
    ],
