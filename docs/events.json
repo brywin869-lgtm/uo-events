@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T22:48:12Z",
+ "generated": "2026-11-16T06:28:58Z",
  "shards": [
   "Atlantic",
   "Pacific",
@@ -15,34 +15,6 @@
   "Origin"
  ],
  "events": [
-  {
-   "uid": "39566-1794168000-1794175200@uo.com",
-   "title": "Catskills - Sultan's Meeting",
-   "shard": "Catskills",
-   "start": "2026-11-09T01:00:00Z",
-   "end": "2026-11-09T03:00:00Z",
-   "allDay": false,
-   "url": "https://uo.com/event/catskills-sultans-meeting-3/",
-   "location": "Moongate Will Be Provided",
-   "tags": [
-    "EM Event"
-   ],
-   "approx": false
-  },
-  {
-   "uid": "39463-1794160800-1794164400@uo.com",
-   "title": "Sonoma - Rituals in the Dark",
-   "shard": "Sonoma",
-   "start": "2026-11-09T02:00:00Z",
-   "end": "2026-11-09T03:00:00Z",
-   "allDay": false,
-   "url": "https://uo.com/event/sonoma-rituals-in-the-dark/",
-   "location": "Sonoma",
-   "tags": [
-    "EM Event"
-   ],
-   "approx": false
-  },
   {
    "uid": "39606-1794340800-1794340800@uo.com",
    "title": "Great Lakes – Royal Britannian Guard",
