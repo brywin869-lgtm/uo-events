@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T00:57:21Z",
+ "generated": "2026-11-18T11:41:12Z",
  "shards": [
   "Atlantic",
   "Pacific",
@@ -15,20 +15,6 @@
   "Origin"
  ],
  "events": [
-  {
-   "uid": "39606-1794340800-1794340800@uo.com",
-   "title": "Great Lakes – Royal Britannian Guard",
-   "shard": "Great Lakes",
-   "start": "2026-11-11T02:00:00Z",
-   "end": "2026-11-11T02:00:00Z",
-   "allDay": false,
-   "url": "https://uo.com/event/great-lakes-royal-britannian-guard-194/",
-   "location": "Great Lakes – Counselor Hall",
-   "tags": [
-    "EM Event"
-   ],
-   "approx": false
-  },
   {
    "uid": "39562-1794605400-1794607200@uo.com",
    "title": "LA - Birthday and Such",
