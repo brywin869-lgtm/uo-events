@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T20:30:21Z",
+ "generated": "2026-11-19T02:34:05Z",
  "shards": [
   "Atlantic",
   "Pacific",
@@ -232,6 +232,20 @@
    "allDay": false,
    "url": "https://uo.com/event/great-lakes-royal-council-80/",
    "location": "Great Lakes – Counselor Hall",
+   "tags": [
+    "EM Event"
+   ],
+   "approx": false
+  },
+  {
+   "uid": "40100-1796416200-1796419800@uo.com",
+   "title": "LA - The Awakening Hearth",
+   "shard": "Lake Austin",
+   "start": "2026-12-05T01:30:00Z",
+   "end": "2026-12-05T02:30:00Z",
+   "allDay": false,
+   "url": "https://uo.com/event/la-the-awakening-hearth/",
+   "location": "Vesper Bank",
    "tags": [
     "EM Event"
    ],
