@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T02:19:08Z",
+ "generated": "2026-11-20T11:39:07Z",
  "shards": [
   "Atlantic",
   "Pacific",
@@ -161,6 +161,20 @@
    "end": "2026-11-23T03:30:00Z",
    "allDay": false,
    "url": "https://uo.com/event/sonoma-governors-council-meeting/",
+   "location": "",
+   "tags": [
+    "EM Event"
+   ],
+   "approx": false
+  },
+  {
+   "uid": "40104-1795460400-1795465800@uo.com",
+   "title": "Napa Valley - Saving Havenreach Harbor",
+   "shard": "Napa Valley",
+   "start": "2026-11-24T03:00:00Z",
+   "end": "2026-11-24T04:30:00Z",
+   "allDay": false,
+   "url": "https://uo.com/event/napa-valley-saving-havenreach-harbor/",
    "location": "",
    "tags": [
     "EM Event"
