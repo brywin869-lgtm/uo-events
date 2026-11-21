@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T02:13:45Z",
+ "generated": "2026-11-21T11:00:44Z",
  "shards": [
   "Atlantic",
   "Pacific",
@@ -15,20 +15,6 @@
   "Origin"
  ],
  "events": [
-  {
-   "uid": "39562-1794605400-1794607200@uo.com",
-   "title": "LA - Birthday and Such",
-   "shard": "Lake Austin",
-   "start": "2026-11-14T02:30:00Z",
-   "end": "2026-11-14T03:00:00Z",
-   "allDay": false,
-   "url": "https://uo.com/event/la-birthday-and-such/",
-   "location": "Award Hall, Malas",
-   "tags": [
-    "EM Event"
-   ],
-   "approx": false
-  },
   {
    "uid": "39556-1794686400-1794690000@uo.com",
    "title": "Lake Superior - Tribes Of Trouble",
